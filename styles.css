@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 1rem;
+}
+
+#lyricsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.lyrics-card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+}
+
+.lyrics-card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #6200ea;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
